@@ -8,3 +8,4 @@ All reports herein are published with the consent of our clients.
 |------------------------------|-------------------------------------------------------------|------------------|--------------|
 | [Brink](https://brink.trade) | [PDF](pdfs/Brink-Spearbit-Security-Review-Engagement-1.pdf) | Automation, DeFi | Engagement 1 |
 | [Brink](https://brink.trade) | [PDF](pdfs/Brink-Spearbit-Security-Review-Engagement-2.pdf) | Automation, DeFi | Engagement 2 |
+| [Sudoswap](https://sudoswap.xyz) | [PDF](pdfs/Sudoswap-Spearbit-Security-Review.pdf) | DeFi |  |
