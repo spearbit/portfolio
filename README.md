@@ -11,3 +11,4 @@ All reports herein are published with the consent of our clients.
 | [Sudoswap](https://sudoswap.xyz) | [PDF](pdfs/Sudoswap-Spearbit-Security-Review.pdf) | DeFi, P2P NFT Swaps |  |
 | [Sense](https://sense.finance) | [PDF](pdfs/Sense-Spearbit-Security-Review.pdf) | DeFi, Fixed Yield |  |
 | [Tracer](https://tracer.finance/) |[PDF](pdfs/Tracer-Spearbit-Security-Review.pdf) | DeFi, Perpetual Pools | |
+| [Overlay](https://overlay.market/) |[PDF](pdfs/Overlay-Spearbit-Security-Review.pdf) | DeFi, Markets on streams of data | |
