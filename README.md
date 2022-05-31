@@ -6,6 +6,7 @@ All reports herein are published with the consent of our clients.
 
 | Protocol                     | Report                                                      | Type             | Comments     |
 |------------------------------|-------------------------------------------------------------|------------------|--------------|
+| [Porter](https://porter.finance/) |[PDF](pdfs/Porter-Spearbit-Security-Review.pdf) | DeFi, Bonds | |
 | [Paladin](https://paladin.vote/) |[PDF](pdfs/Paladin-Spearbit-Security-Review.pdf) | DeFi, Governance Lending | |
 | [Overlay](https://overlay.market/) |[PDF](pdfs/Overlay-Spearbit-Security-Review.pdf) | DeFi, Markets on streams of data | |
 | [Tracer](https://tracer.finance/) |[PDF](pdfs/Tracer-Spearbit-Security-Review.pdf) | DeFi, Perpetual Pools | |
