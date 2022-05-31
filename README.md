@@ -6,7 +6,7 @@ All reports herein are published with the consent of our clients.
 
 | Protocol                     | Report                                                      | Type             | Comments     |
 |------------------------------|-------------------------------------------------------------|------------------|--------------|
-| [Paladin](https://paladin.vote/) |[PDF](pdfs/Paladin-Spearbit-Security-Review.pdf) | DeFi, Governance lending | |
+| [Paladin](https://paladin.vote/) |[PDF](pdfs/Paladin-Spearbit-Security-Review.pdf) | DeFi, Governance Lending | |
 | [Overlay](https://overlay.market/) |[PDF](pdfs/Overlay-Spearbit-Security-Review.pdf) | DeFi, Markets on streams of data | |
 | [Tracer](https://tracer.finance/) |[PDF](pdfs/Tracer-Spearbit-Security-Review.pdf) | DeFi, Perpetual Pools | |
 | [Sense](https://sense.finance) | [PDF](pdfs/Sense-Spearbit-Security-Review.pdf) | DeFi, Fixed Yield |  |
