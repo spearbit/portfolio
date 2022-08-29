@@ -11,6 +11,11 @@
 
 <h1 class="center" style="color:red"> Public Portfolio </h1>
 
+Spearbit is a decentralized network of expert security engineers offering reviews and other security related services to Web3 projects with the goal of creating a stronger ecosystem. Our network has experience on every part of the blockchain technology stack, including but not limited to protocol design, smart contracts and the Solidity compiler. Spearbit brings in untapped security talent by enabling expert freelance auditors seeking flexibility to work on interesting projects together.
+
+<br>
+
+<h3><ins>Table of Contents</ins></h3>
 
 - [Engagements](#engagements)
 - [Competitions](#competitions)
