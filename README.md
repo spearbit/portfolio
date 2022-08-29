@@ -1,6 +1,7 @@
 ![spearbit_wordmark_black_1000x250](https://user-images.githubusercontent.com/47452703/185383652-9a1adea9-1f7a-49c6-ba20-eac179cd87c4.png)
 
 <p align="center">
+  Request an audit by filling <a href="https://airtable.com/shrkxrtMKYJkLaXhT"> this form</a> or learn more at
   <a href="https://spearbit.com">Spearbit.com</a>
 </p>
 
@@ -106,8 +107,9 @@
 ## Spearbook
 *Public Spearbit documentation meant for clients* 
 <br>
-<img src="https://user-images.githubusercontent.com/47452703/185889688-ec310afb-ca57-4bef-b12d-a19007a1fb46.png" width="200" height="300"/>
-
+<a href="https://hackmd.io/@spearbit/rJB2dPGwq">
+  <img src="https://user-images.githubusercontent.com/47452703/185889688-ec310afb-ca57-4bef-b12d-a19007a1fb46.png" width="200" height="300"/>
+</a>
 - [Client-Side](https://hackmd.io/@spearbit/rJB2dPGwq)
 
 <br>
