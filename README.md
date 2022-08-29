@@ -117,7 +117,7 @@
 ## Core Team
 *Have any questions? Reach out to the core team directly!*
 - [Jake Lang](https://twitter.com/jake_theripper)
-- [Spencer McDonald](https://twitter.com/SpencerMac101)
+- [Spencer MacDonald](https://twitter.com/SpencerMac101)
 - [Alex Beregszaszi](https://twitter.com/alexberegszaszi)
 - [Harikrishnan Mulackal](https://twitter.com/_hrkrshnn)
 - [Jake Lynch](https://twitter.com/lakejynch)
