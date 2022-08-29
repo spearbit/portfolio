@@ -62,7 +62,7 @@ Spearbit is a decentralized network of expert security engineers offering review
 | [POAP](https://poap.xyz) |December 2021 | | NFT, Badges. Private Audit | --- |
 | [POAP](https://poap.xyz) |December 2021 | | WEB2 NFT, Badges. Private Audit  | --- |
 | [Brink](https://brink.trade) |November 2021 | [:page_facing_up:](pdfs/Brink-Spearbit-Security-Review-Engagement-2.pdf) | DeFi, Automation | LSR-[Harikrishnan Mulackal](https://twitter.com/_hrkrshnn) <br> LSR-[Alex Beregszaszi](https://twitter.com/alexberegszaszi) <br> LSR-[Gerard Persoon](https://twitter.com/gpersoon) |
-| [Brink](https://brink.trade) |November 2021 | [:page_facing_up:](pdfs/Brink-Spearbit-Security-Review-Engagement-1.pdf) | DeFi, Automation | Engagement 1 | LSR-[Gerard Persoon](https://twitter.com/gpersoon)<br> LSR-[Harikrishnan Mulackal](https://twitter.com/_hrkrshnn) <br> LSR-[Max Goodman](https://twitter.com/maxxgrok)|
+| [Brink](https://brink.trade) |November 2021 | [:page_facing_up:](pdfs/Brink-Spearbit-Security-Review-Engagement-1.pdf) | DeFi, Automation | LSR-[Gerard Persoon](https://twitter.com/gpersoon)<br> LSR-[Harikrishnan Mulackal](https://twitter.com/_hrkrshnn) <br> LSR-[Max Goodman](https://twitter.com/maxxgrok)|
 
 <br>
 
