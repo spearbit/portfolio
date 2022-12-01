@@ -195,7 +195,7 @@ connecting them to DEX aggregators.
 
 Spearbit has assembled a community of Security Researchers with the specific domain expertise needed to understand the technical complexity of bridge protocols. Security reviews are only a partial solution when it comes to securing bridges. By fostering the conversation through seminars, twitter spaces, and community discussion, Spearbit aims to serve as a backbone for developers in this complex ecosystem.
 
-If you are a developer or security researcher looking to dive deeper into bridging protocols we invite you to checkout and help us improve our Bridge Security Checklist.
+If you are a developer or security researcher looking to dive deeper into bridging protocols we invite you to checkout and help us improve our [Bridge Security Checklist](https://github.com/spearbit/portfolio/blob/master/content/bridges/BridgeSecurityChecklist.md).
 
 ---
 
