@@ -1,6 +1,6 @@
 # Bridge Security Checklist: Client Side
 
-_Contact @cbym from Speabit for more information. Actively looking for feedback._
+_Contact @cbym from Spearbit for more information. Actively looking for feedback._
 
 The information hereby filled by the project will serve as additional documentation to the security review.
 
@@ -44,13 +44,13 @@ The information hereby filled by the project will serve as additional documentat
 - [ ] **Externally verified:** Third party (EOA, MultiSig, intermediary blockchain with their own set of validators).
 - [ ] **Natively Verified:** By originating chain Validators (light client; if src chain validator say msg are valid, they are considered valid on Destination chain).
 - [ ] **Optimistically verified:** Message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window.
-- [ ] **Cannonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
+- [ ] **Canonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
 
 #### Who is managing the validators / EOA / multisig / attester?
 
 - [ ] **The bridge project itself:** The team runs and maintains nodes.
   - Is it Permissioned?
-  - Describe what actions can third parties take in the event of a an issue (e.g., censorphip, technical malfunction, etc.. )
+  - Describe what actions can third parties take in the event of a an issue (e.g., censorship, technical malfunction, etc.. )
 - [ ] **A third party:** outsourcing RPC providers and message relays.
   - Who is the 3rd party? Describe:
 
@@ -58,7 +58,7 @@ The information hereby filled by the project will serve as additional documentat
 
 - [ ] **Censor** individual messages.
   - Describe.
-- [ ] **Freeze / Pause** messages indefinitly.
+- [ ] **Freeze / Pause** messages indefinitely.
   - Describe.
 - [ ] **Forge** messages / steal funds.
   - Describe.
@@ -196,7 +196,7 @@ The information hereby filled by the project will serve as additional documentat
 - [ ] BeaconProxy.
 - [ ] No.
 
-#### How complex is the system's implementation (How hard it is for an external party to undertand)?
+#### How complex is the system's implementation (How hard it is for an external party to understand)?
 
 - [ ] High.
 - [ ] Medium.
@@ -384,7 +384,7 @@ _Source: [security-verification-requirements](https://github.com/securing/SCSVS/
 | **C6.4** | Verify that bridge includes source and destination chains identifiers in the signed message and correctly verifies them.                         |
 | **C6.5** | Verify that bridge does not allow to spoof chain identifier.                                                                                     |
 | **C6.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver and amount) to be executed multiple times.      |
-| **C6.7** | Verify signed message cannot be used in a differenct context (use domain separator from EIP-712).                                                |
+| **C6.7** | Verify signed message cannot be used in a different context (use domain separator from EIP-712).                                                |
 
 <br>
 

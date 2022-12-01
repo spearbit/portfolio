@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-- [What is a bridge?](#What-is-a-bridge)
-- [The signifigance of bridges](#the-signifigance-of-bridges)
-- [How does a bridge operate?](#How-does-a-bridge-operate)
-- [Common vulnerabilities of bridges](#Common-vulnerabilities-of-bridges)
-- [Spearbit's bridge clients](#Spearbits-bridge-clients)
-- [How are we helping secure these bridges?](#How-are-we-helping-secure-these-bridges)
+- [What is a Bridge?](#what-is-a-bridge)
+- [The significance of bridges](#the-significance-of-bridges)
+- [How does a bridge operate?](#how-does-a-bridge-operate)
+- [Common vulnerabilities of bridges](#common-vulnerabilities-of-bridges)
+- [Spearbit's Bridge Clients](#spearbits-bridge-clients)
+- [How are we helping secure these bridges?](#how-are-we-helping-secure-these-bridges)
 
 <br>
 
@@ -24,25 +24,25 @@ Bridges can be further categorized by the methodology used to verify transaction
 
 - **Externally Verified:** Externally verified bridges rely on a 3rd party (an address or multisig governed by a counterparty or counterparties) to validate transactions on both the destination and origin chains. For externally verified bridges, a third party is trusted.
 - **Natively Verified:** Natively verified bridges run a validator for the origin chain on the destination chain to verify that a transaction has occurred. Natively verified bridges inherit the trust assumptions of the origin chain.
-- **Optimistically Verified:** Optimistcally verified bridges assume that transactions are valid and allow anyone to challenge a transaction within a certain window of time before finalizing the transaction. These bridges rely heavily on economic trust assumptions.
+- **Optimistically Verified:** Optimistically verified bridges assume that transactions are valid and allow anyone to challenge a transaction within a certain window of time before finalizing the transaction. These bridges rely heavily on economic trust assumptions.
 
 Lastly, trust minimized bridges can be classified by the type of data that they are transferring:
 
 - **Arbitrary Message Bridge (AMB):** AMBs serve as simple cross-chain messaging protocols. These messages can range in specificity and might include oracle data, hashes, addresses.
-- **Liquidity Bridges:** Liquidity bridges typically have cross-chain liquidity pools, whereby a user deposits an asset into the liquidity pool on the origin chain and a confirmation message passed through the bridge allows them to withdraw from a liquidity pool on desination chain.
+- **Liquidity Bridges:** Liquidity bridges typically have cross-chain liquidity pools, whereby a user deposits an asset into the liquidity pool on the origin chain and a confirmation message passed through the bridge allows them to withdraw from a liquidity pool on destination chain.
 - **Token Bridges:** Token bridges allow users to either lock or burn an asset on the origin chain and then mint the asset on the destination chain.
 
 Note that both liquidity bridges and token bridges incorporate an AMB within their design.
 
 <br>
 
-## The signifigance of bridges
+## The significance of bridges
 
 The open, collaborative, and composable nature of web3 is one of the most appealing attributes of blockchain for developers. Before the existence of bridge protocols, each blockchain was inhibited by the liquidity and applications within its own domain. The introduction of bridges has provided an avenue for enabling data exchange, smart contracts, token transfer, and instructions between two independent protocols.
 
 1. **Capital Efficiency:** Users can make and receive transfers without having to pay high transaction fees for every transaction. This opens the door applications like gaming and mass market applications. A simple example of this efficiency is a user can bridge their token from Ethereum (Layer 1) to Polygon (Layer 2) to enjoy much lower transaction fees.
 2. **Cross-chain bonding:** Bridges enable users to transfer digital assets from a blockchain that holds significant value, but few dapps of its own, such as Bitcoin, to one that has a developed DeFi ecosystem, like Ethereum, and a need for additional liquidity.
-3. **Composability:** Bridges give users the ability to have freedom when it comes to the DeFi applications they can interact, opening up possiblities beyond the Native chain. For example, let's say there is ABC project on Arbitrum that offers 15% APY on DAI in a liquidity pool, but the user has assets on the Ethereum chain. In this scenario, the user can bridge their Ethereum tokens to Arbitrum and access this yield. The user can then bridge the LP tokens back to Ethereum and borrow against these on a lending platform, like Aave.
+3. **Composability:** Bridges give users the ability to have freedom when it comes to the DeFi applications they can interact, opening up possibilities beyond the Native chain. For example, let's say there is ABC project on Arbitrum that offers 15% APY on DAI in a liquidity pool, but the user has assets on the Ethereum chain. In this scenario, the user can bridge their Ethereum tokens to Arbitrum and access this yield. The user can then bridge the LP tokens back to Ethereum and borrow against these on a lending platform, like Aave.
 4. **Scalability:** Bridges are designed to withstand high transaction volumes, which enables greater scalability without forcing developers and users to give up the liquidity and network effect of the original chains.
    <br>
 
@@ -78,11 +78,30 @@ The following are examples from published Spearbit Audit reports which can be fo
 
 Cross-chain bridges perform validation of a deposit or withdrawal before actually performing any transfers. There have been many instances in the past where lack of proper validation of signature or dispatching leads to millions of dollars in loses.
 
-Here is an example of an identified vulnerability regarding verificaiton when it comes to dispatching of messages:
+Here is an example of an identified vulnerability regarding verification when it comes to dispatching of messages:
 
-In this intance, upon calling _xcall()_, a message is dispatched. A hash of this message is inserted into the merkle tree and the new root will be added at the end of the queue. Whenever the updater of the contract commits to a new root, _improperUpdate()_ will check that the new update is not fraudulent. In doing so, it must iterate through the queue of merkle roots to find the correct committed root. Because anyone can dispatch a message and insert a new root into the queue it is possible to impact the availability of the protocol by preventing honest messages from being included in the updated root.
+In this instance, upon calling _xcall()_, a message is dispatched. A hash of this message is inserted into the merkle tree and the new root will be added at the end of the queue. Whenever the updater of the contract commits to a new root, _improperUpdate()_ will check that the new update is not fraudulent. In doing so, it must iterate through the queue of merkle roots to find the correct committed root. Because anyone can dispatch a message and insert a new root into the queue it is possible to impact the availability of the protocol by preventing honest messages from being included in the updated root.
 
-![](https://i.imgur.com/qCroumz.png)
+```solidity
+function improperUpdate (..., bytes32 _newRoot, ...) public notFailed returns (bool) {
+   // if the _newRoot is not currently contained in the queue, 
+   // slash the Updater and set the contract to FAILED state 
+   if (!queue.contains(_newRoot)) {
+      _fail();
+      ...
+   }
+   ...
+}
+
+function contains (Queue storage _q, bytes32 _item) internal view returns (bool) {
+   for (uint256 i = _q.first; i <= _q.last; i++) {
+      if (_q.queue[i] == _item) {
+         return true;
+      }
+   }
+   return false;
+}
+```
 
 ### Price Oracle Manipulation
 
@@ -94,7 +113,13 @@ The function directly interacting with a series of oracles within the smart cont
 
 Additionally, it is important to be aware of the _minAnswer_ and _maxAnswer_ of the Chainlink oracle, these values are not allowed to be reached or surpassed. See [Chainlink API](https://docs.chain.link/data-feeds/price-feeds/api-reference/) reference for documentation on minAnswer and _maxAnswer_ as well as this piece of code: [OffchainAggregator.sol](https://github.com/smartcontractkit/libocr/blob/master/contract/OffchainAggregator.sol#L57)
 
-![](https://i.imgur.com/BLA0evR.png)
+```solidity
+if (answer == 0 || answeredInRound < roundId || updateAt == 0) { 
+   // answeredInRound > roundId ===> ChainLink Error: Stale price 
+   // updatedAt = 0 ===> ChainLink Error: Round not complete
+   return 0;
+}
+```
 
 ### Access Controls
 
@@ -104,7 +129,35 @@ Here is an example of an identified vulnerability regarding the importance of ac
 
 There are several access control mechanisms. If they somehow would allow _address(self)_ then risks would increase as there are several ways to call arbitrary functions.
 
-![](https://i.imgur.com/Gmff3gH.png)
+```solidity
+library LibAccess {
+   function addAccess (bytes4 selector, address executor) internal {
+      ...
+      accStor.execAccess[selector][executor] = true;
+   }
+}
+
+contract AccessManagerFacet {
+   function setCanExecute(...) ... {
+   ) external {
+      ...
+      _canExecute? LibAccess.addAccess(_selector, _executor) : LibAccess.removeAccess(_selector, _executor);
+}
+
+contract DexManagerFacet {
+   function addDex (address _dex) external {
+      ...
+      dexAllowlist [_dex] = true;
+      ...
+   }
+
+   function batchAddDex (address [] calldata _dexs) external {
+      ...
+         dexAllowlist [_dexs[i]] = true;
+      ...
+   }
+}
+```
 
 ### Other Notable Vulnerabilities
 
