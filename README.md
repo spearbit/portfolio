@@ -107,6 +107,7 @@ Note: *All reports herein are published with the consent of our clients.*
 *List of public talks and seminars*
 |Name|Additional Resources|
 |----|----|
+|[Community Workshop: Riley Holterhus](https://www.youtube.com/watch?v=_pO2jDgL0XE) |  |
 |[OpenSeacurity with Spearbit](https://www.youtube.com/watch?v=6snnoEI82N8)| [Show notes](https://pastebin.com/cv9qdCnd) |
 | [The Bridge Risk Framework Seminar](https://www.youtube.com/watch?v=JVNgsmEc5Lk)|[L2 Bridge Risk Framework](https://gov.l2beat.com/t/l2bridge-risk-framework/31/1) |
 | [Fuzzing Tools Series: Certora Prover](https://www.youtube.com/watch?v=9Gal-on-06E)| -- |
