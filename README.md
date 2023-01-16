@@ -150,5 +150,4 @@ Note: *All reports herein are published with the consent of our clients.*
 - [Jake Lynch](https://twitter.com/lakejynch)
 - [Pablo Misirov](https://twitter.com/p_misirov)
 - [Moise Igeno](https://twitter.com/moise__)
-- [Michel Kupershmidt](https://twitter.com/MichaelKupersh1)
 - [Mike Leffer](https://twitter.com/mikeleffer)
