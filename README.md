@@ -113,6 +113,7 @@ Note: *All reports herein are published with the consent of our clients.*
 |Name|Additional Resources|
 |----|----|
 |[Community Workshop: Zach Obront](https://youtu.be/PPfhIiclupc)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Spearbit-Astaria-Workshop.pdf)|
+|[How to Foundry 2.0](https://youtu.be/EHrvD5c93JU)|[Demo](https://github.com/nascentxyz/How-to-Foundry)|
 |[EVM Through HUFF: Devtooligan](https://www.youtube.com/watch?v=Rfaabjj7n9k)| [Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Huff-Spearbit-Demo.pdf), [Demo](https://github.com/devtooligan/huff-spearbit-demo) |
 |[ZK Series: Intro with Porter Adams](https://www.youtube.com/watch?v=QXdoMPzmEbE)| [Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/SpearbitZK.pdf) |
 |[Community Workshop: Riley Holterhus](https://www.youtube.com/watch?v=_pO2jDgL0XE) | [Slides](/content/slides/Spearbit_Maple_Workshop.pdf) |
