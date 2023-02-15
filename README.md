@@ -117,6 +117,7 @@ Note: *All reports herein are published with the consent of our clients.*
 |[EVM Through HUFF: Devtooligan](https://www.youtube.com/watch?v=Rfaabjj7n9k)| [Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Huff-Spearbit-Demo.pdf), [Demo](https://github.com/devtooligan/huff-spearbit-demo) |
 |[ZK Series: Intro with Porter Adams](https://www.youtube.com/watch?v=QXdoMPzmEbE)| [Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/SpearbitZK.pdf) |
 |[Community Workshop: Riley Holterhus](https://www.youtube.com/watch?v=_pO2jDgL0XE) | [Slides](/content/slides/Spearbit_Maple_Workshop.pdf) |
+|[EVM Seminar: 7 things about the EVM](https://www.youtube.com/watch?v=XhfaG6cYulU)| [Slides](https://hackmd.io/@axic/7-things-about-the-evm#/)|
 |[OpenSeacurity with Spearbit](https://www.youtube.com/watch?v=6snnoEI82N8)| [Show notes](https://pastebin.com/cv9qdCnd) |
 | [The Bridge Risk Framework Seminar](https://www.youtube.com/watch?v=JVNgsmEc5Lk)|[L2 Bridge Risk Framework](https://gov.l2beat.com/t/l2bridge-risk-framework/31/1) |
 | [Fuzzing Tools Series: Certora Prover](https://www.youtube.com/watch?v=9Gal-on-06E)| -- |
