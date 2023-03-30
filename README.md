@@ -116,6 +116,12 @@ Note: *All reports herein are published with the consent of our clients.*
 *List of public talks and seminars*
 |Name|Additional Resources|
 |----|----|
+|[Numerical Analysis for DeFi Audits: Kurt Barry](https://youtu.be/7_5hbOFGJM8)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Numerical%20Reasoning%20For%20DeFi%20Audits.pdf)|
+|[Economic Security with fmrmf](https://youtu.be/_E5juBbF9s4)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Thinking_Through_Economic_Security.pdf)|
+|[Security Education and Assessment Lab with Rajeev](https://youtu.be/VhUUUN8Z-jw)|[Video](https://youtu.be/VhUUUN8Z-jw)|
+|[Deep Dive Into Seaport with 0age](https://youtu.be/LbrkzgoDR0g)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Deep_Dive_Into_Seaport.pdf)|
+|[Optimal Front Running Attacks & How to Stop Them with Max Resnick](https://youtu.be/BwkNQWM32y0)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Optimal_Frontrunning_Attacks_and_How_to_Stop_Them_2.pdf)|
+|[From Exploit to Recovery: Unraveling DeFi Incidents with Spreek](https://youtu.be/oIw6DG75-z4)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/From%20Exploit%20to%20Recovery_%20Unraveling%20DeFi%20Incidents.pdf)|
 |[Community Workshop: Zach Obront](https://youtu.be/PPfhIiclupc)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Spearbit-Astaria-Workshop.pdf)|
 |[How to Foundry 2.0](https://youtu.be/EHrvD5c93JU)|[Demo](https://github.com/nascentxyz/How-to-Foundry)|
 |[EVM Through HUFF: Devtooligan](https://www.youtube.com/watch?v=Rfaabjj7n9k)| [Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Huff-Spearbit-Demo.pdf), [Demo](https://github.com/devtooligan/huff-spearbit-demo) |
