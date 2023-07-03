@@ -183,5 +183,5 @@ Note: *All reports herein are published with the consent of our clients.*
 - [Harikrishnan Mulackal](https://twitter.com/_hrkrshnn)
 - [Jake Lynch](https://twitter.com/lakejynch)
 - [Pablo Misirov](https://twitter.com/p_misirov)
-- [Moise Igeno](https://twitter.com/moise__)
+- [Michael Kupershmidt](https://twitter.com/mikebutstanding)
 - [Mike Leffer](https://twitter.com/mikeleffer)
