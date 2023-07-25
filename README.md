@@ -31,7 +31,7 @@ Spearbit is a decentralized network of expert security engineers offering review
 ## Engagements
 Note: *All reports herein are published with the consent of our clients.*
 
-| Protocol                     | Date |Report                                                      | Type        | Auditors involved |
+| Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
 | [OpenSea](https://opensea.io/)| June 2023 |  | NFT, SeaDrop | LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt)  <br> LSR-[Harikrishnan Mulackal](https://twitter.com/_hrkrshnn) |
 | [Nouns DAO](https://nouns.wtf/)| June 2023 |  | NFT, Governance | LSR-[Rajeev](https://twitter.com/0xRajeev) <br> LSR-[hyh](https://twitter.com/0xhyh)  <br> SR-[r0bert]()  <br> JSR-[Christos Pap](https://twitter.com/christos_eth) <br> JSR-[TCHKVSKY](https://github.com/TCHKVSKY) |
