@@ -1,4 +1,4 @@
-![spearbit](https://raw.githubusercontent.com/davidleger95/portfolio-1/master/spearbit-wordmark.svg)
+![spearbit](https://raw.githubusercontent.com/spearbit/portfolio/master/spearbit-wordmark.svg)
 
 <p align="center">
   Request an audit by filling <a href="https://airtable.com/shrkxrtMKYJkLaXhT"> this form</a> or learn more at
