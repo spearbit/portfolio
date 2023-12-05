@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Brahma](https://www.brahma.fi/) | October 2023 | [:page_facing_up:](pdfs/Brahma-Spearbit-Security-Review.pdf) | DeFi | LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) <br> LSR-[Gerard Persoon](https://twitter.com/gpersoon) <br> SR-[Xiaoming90](https://twitter.com/xiaoming9090) <br> SR-[Philogy](https://twitter.com/real_philogy) |
 | [Liquid Collective](https://liquidcollective.io/) | September 2023 | [:page_facing_up:](pdfs/LiquidCollectivePR-Spearbit-Security-Review-Sept.pdf) | Liquid Staking, Enterprise Grade Staking | <br> LSR-[Optimum](https://twitter.com/0xOptimum) <br> LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) <br> SR-[Xiaoming90](https://twitter.com/xiaoming9090) <br> JSR-[Ellahi](https://github.com/Ellahinator) |
 | [Redacted](https://redacted.finance) | August 2023 | | Web2, Back-End | LSR-[Christoph Michel](https://twitter.com/cmichelio) <br> SR-[High_byte](https://twitter.com/high_byte) |
 | [Redacted](https://redacted.finance) | July 2023 | | DeFi, Liquid Staking | LSR-[Rajeev](https://twitter.com/0xRajeev) <br> LSR-[0x52](https://twitter.com/IAm0x52) <br>  SR-[Slofi]() <br>  JSR-[Ayeslick]()|
