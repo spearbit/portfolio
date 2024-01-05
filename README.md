@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Llama](https://llama.xyz/) | December 2023 | [:page_facing_up:](pdfs/Llama-Spearbit-Security-Review.pdf) | Governance, Voting | LSR-[Noah Marconi](https://twitter.com/NoahMarconi) <br> SR-[Xmxanuel](https://twitter.com/xmxanuel) |
 | [Redacted](https://redacted.finance/) | November 2023 | [:page_facing_up:](pdfs/Redacted-Dinero-Infrastructure-Security-Review.pdf) | Infrastructure | LSR-[Parithosh](https://twitter.com/parithosh_j) <br> LSR-[Rafael Matias](https://twitter.com/skylenet) |
 | [Sphinx](https://www.sphinx.dev/) | November 2023 | [:page_facing_up:](pdfs/Sphinx-Spearbit-Security-Review.pdf) | Infrastructure | LSR-[Desmond Ho](https://twitter.com/HickupH) <br> LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) <br> SR-[M4rio.eth](https://twitter.com/m4rio_eth) <br> JSR-[David Chaparro](https://twitter.com/Deivitto) <br> JSR-[Sabnock](https://twitter.com/Sabnock66) |
 | [Brahma](https://www.brahma.fi/) | October 2023 | [:page_facing_up:](pdfs/Brahma-Spearbit-Security-Review.pdf) | DeFi | LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) <br> LSR-[Gerard Persoon](https://twitter.com/gpersoon) <br> SR-[Xiaoming90](https://twitter.com/xiaoming9090) <br> SR-[Philogy](https://twitter.com/real_philogy) |
@@ -207,3 +208,4 @@ Note: *All reports herein are published with the consent of our clients.*
 - [Pablo Misirov](https://twitter.com/p_misirov)
 - [Michael Kupershmidt](https://twitter.com/mikebutstanding)
 - [Mike Leffer](https://twitter.com/mikeleffer)
+- [Noah Marconi](https://twitter.com/NoahMarconi)
