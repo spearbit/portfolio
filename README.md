@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Centrifuge](https://centrifuge.io)| July 2024 | [:page_facing_up:](pdfs/Centrifuge-Spearbit-Security-Review-July-2024.pdf) | DeFi | LSR-[Gerard Persoon](https://twitter.com/gpersoon) <br> LSR-[Leastwood](https://twitter.com/0xleastwood) <br> SR-[Devtooligan](https://twitter.com/devtooligan) <br> ASR-[Jonatas Martins](https://twitter.com/jonataspvt) |
 | [Pendle Finance](https://www.pendle.finance/)| June 2024 | [:page_facing_up:](pdfs/Pendle-Spearbit-Security-Review-July-2024.pdf) | Yield, DeFi | LSR-[hyh](https://twitter.com/0xhyh) <br> LSR-[Kurt Barry](https://twitter.com/Kurt_M_Barry) <br> SR-[Xiaoming90](https://twitter.com/xiaoming9090) <br> ASR-[Mario Poneder](https://twitter.com/MarioPoneder) |
 | [Base](https://www.base.org/)| June 2024 | | Proofs, Disputes | LSR-[Xmxanuel](https://twitter.com/xmxanuel) <br> LSR-[Desmond Ho](https://twitter.com/HickupH) <br> SR-[0xLadboy](https://twitter.com/xc1008cui) <br> SR-[Cryptara]() |
 | [Delv](https://www.delv.tech/)| June 2024 | [:page_facing_up:](pdfs/Delv-Spearbit-Security-Review-June-2024.pdf) | DeFi, Yield | LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) |
