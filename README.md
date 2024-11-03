@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Morpho](https://www.morpho.xyz)| October 2024 | [:page_facing_up:](pdfs/Morpho-Spearbit-Security-Review-October-2024.pdf) | DeFi, Lending | LSR-[Saw-Mon and Natalie](https://twitter.com/sw0nt) <br> LSR-[Jonah1005](https://twitter.com/Jonah1005W) |
 | [Sorella Labs](https://sorellalabs.xyz) | October 2024 | [:page_facing_up:](pdfs/Sorella-Spearbit-Security-Review-October-2024.pdf) | MEV Protection, AMM | LSR-[Desmond Ho](https://twitter.com/HickupH) <br> SR-[MiloTruck](https://twitter.com/milotruck) |
 | [Royco](https://docs.royco.org/) | October 2024 | [:page_facing_up:](pdfs/Royco-Spearbit-Security-Review-October-2024.pdf) | Vaults, Incentivized Action Markets | LSR-[Eric Wang](https://twitter.com/shw9453) <br> LSR-[Leastwood](https://twitter.com/0xleastwood) <br> SR-[Devtooligan](https://twitter.com/devtooligan) <br> ASR-[0x4non](https://twitter.com/eugenioclrc) |
 | [Euler](https://www.eulerlabs.com/) | October 2024 | [:page_facing_up:](pdfs/Euler-Spearbit-Security-Review-October-2024.pdf) | DeFi, Vault | LSR-[Christoph Michel](https://twitter.com/cmichelio) <br> SR-[M4rio.eth](https://twitter.com/m4rio_eth)  |
