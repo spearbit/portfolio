@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Optimism](https://oplabs.co)| April 2025 | [:page_facing_up:](pdfs/Optimism-Upgrade-15a-Spearbit-Security-Review-April-2025.pdf) | Infrastructure, L2 | LSR-[M4rio.eth](https://twitter.com/m4rio_eth) <br> LSR-[MiloTruck](https://twitter.com/milotruck) |
 | [Matter Labs](https://zksync.io/) | March 2025 | [:page_facing_up:](pdfs/Matter-Labs-Spearbit-Security-Review-March-2025.pdf) | ZK, Infrastructure | LSR-[Guido Vranken](https://twitter.com/GuidoVranken) <br> SR-[Blockdev](https://twitter.com/blockdeveth) <br> SR-[Kyle Charbonnet](https://twitter.com/kcharbo0) |
 | [Ondo](https://ondo.finance/)| March 2025 | [:page_facing_up:](pdfs/Ondo-Spearbit-Security-Review-March-2025.pdf) | DeFi, Stablecoin | LSR-[Desmond Ho](https://twitter.com/HickupH) <br> SR-[Csanuragjain](https://twitter.com/csanuragjain) <br> ASR-[Carrotsmuggler](https://twitter.com/carrotsmuggler) |
 | [infiniFi](https://infinifi.xyz/)| March 2025 | [:page_facing_up:](pdfs/InfiniFi-Spearbit-Security-Review-March-2025.pdf) | DeFi, Stablecoin | LSR-[Noah Marconi](https://twitter.com/NoahMarconi) <br> LSR-[R0bert](https://twitter.com/0xr0berth) <br> SR-[Slowfi](https://twitter.com/slowfinanc3) <br> ASR-[Jonatas Martins](https://twitter.com/jonataspvt) |
@@ -209,7 +210,7 @@ Note: *All reports herein are published with the consent of our clients.*
 |[Economic Security with fmrmf](https://youtu.be/_E5juBbF9s4)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Thinking_Through_Economic_Security.pdf)|
 |[Security Education and Assessment Lab with Rajeev](https://youtu.be/VhUUUN8Z-jw)|[Video](https://youtu.be/VhUUUN8Z-jw)|
 |[Deep Dive Into Seaport with 0age](https://youtu.be/LbrkzgoDR0g)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Deep_Dive_Into_Seaport.pdf)|
-|[Optimal Front Running Attacks & How to Stop Them with Max Resnick](https://youtu.be/BwkNQWM32y0)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Optimal_Frontrunning_Attacks_and_How_to_Stop_Them_2.pdf)|
+|[Optimal Front Running Attacks & How to Stop Them with Max Resnick](https://youtu.be/BwkNQWM32y0)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/mal_Frontrunning_Attacks_and_How_to_Stop_Them_2.pdf)|
 |[From Exploit to Recovery: Unraveling DeFi Incidents with Spreek](https://youtu.be/oIw6DG75-z4)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/From%20Exploit%20to%20Recovery_%20Unraveling%20DeFi%20Incidents.pdf)|
 |[Community Workshop: Zach Obront](https://youtu.be/PPfhIiclupc)|[Slides](https://github.com/spearbit/portfolio/blob/master/content/slides/Spearbit-Astaria-Workshop.pdf)|
 |[How to Foundry 2.0](https://youtu.be/EHrvD5c93JU)|[Demo](https://github.com/nascentxyz/How-to-Foundry)|
