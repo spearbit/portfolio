@@ -33,6 +33,7 @@ Note: *All reports herein are published with the consent of our clients.*
 
 | Protocol                     | Date |Report                                                      | Type        | Researchers involved |
 |------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| [Optimism](https://oplabs.co) | September 2025 | [:page_facing_up:](pdfs/Optimism-Verify-Upgrade16-Spearbit-Security-Review-September-2025.pdf) | Infrastructure, L2 | LSR-[R0bert](https://cantina.xyz/u/r0bert) <br> LSR-[MiloTruck](https://cantina.xyz/u/milotruck) |
 | [Aragon](https://www.aragon.org/) | July 2025 | [:page_facing_up:](pdfs/Aragon-Spearbit-Security-Review-July-2025.pdf) | Infrastructure, Governance | LSR-[Emanuele Ricci](https://twitter.com/StErMi) <br> SR-[Patrickd](https://cantina.xyz/u/patrickd) <br> SR-[Om Parikh](https://cantina.xyz/u/hack3r-0m) |
 | [Stackup](https://www.stackup.fi/) | July 2025 | [:page_facing_up:](pdfs/Stackup_Spearbit_Security_Review_July_2025.pdf) | Wallet, Smart Account | LSR-[Gerard Persoon](https://cantina.xyz/u/gpersoon) <br> SR-[Kaden](https://cantina.xyz/u/0xkaden) <br> SR-[Tnch](https://cantina.xyz/u/tnch) <br> ASR-[Hake](https://cantina.xyz/u/hake) |
 | [Neutrl](https://docs.neutrl.fi/) | July 2025 | [:page_facing_up:](pdfs/Neutrl-Spearbit-Security-Review-July-2025.pdf) | Stablecoin, Yield | LSR-[Rajeev](https://cantina.xyz/u/0xrajeev) <br> LSR-[Kurt Barry](http://cantina.xyz/u/kmbarry1) <br> ASR-[Chinmay Farkya](https://cantina.xyz/u/chinmay) |
