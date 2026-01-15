@@ -31,8 +31,9 @@ Spearbit is a network of expert security engineers offering reviews and other se
 ## Engagements
 Note: *All reports herein are published with the consent of our clients.*
 
-| Protocol                     | Date |Report                                                      | Type        | Researchers involved |
-|------------------------------|------|-------------------------------------------------------|------------------|-------------------|
+| Protocol                     | Date |Report                                                 | Type             | Researchers involved |
+|------------------------------|------|-------------------------------------------------------|------------------|----------------------|
+| [Buck Labs](https://x.com/BuckToken) | December 2025 | [:page_facing_up:](pdfs/Strong-DAO-Spearbit-Security-Review-December-2025.pdf) | DeFi, Stablecoin | LSR-[R0bert](https://cantina.xyz/u/r0bert) <br> SR-[Sujith Somraaj](https://cantina.xyz/u/sujithsomraaj) <br> SR-[Chinmay Farkya](https://cantina.xyz/u/chinmay) |
 | [Kinetiq](https://kinetiq.xyz/) | November 2025 | [:page_facing_up:](pdfs/Kinetiq-Spearbit-Security-Review-November-2025.pdf) | DeFi, Liquid Staking | LSR-[0xRajeev](https://cantina.xyz/u/0xrajeev) <br>  LSR-[Optimum](https://cantina.xyz/u/optimumsec) <br> SR-[Rvierdiiev](https://cantina.xyz/u/rvierdiiev) <br> ASR-[Kamensec](https://cantina.xyz/u/kamensec) |
 | [Kyber Network](https://kyber.network/) | October 2025 | [:page_facing_up:](https://github.com/spearbit/portfolio/blob/master/pdfs/Kyber-Hook-Uniswap-Foundation-Spearbit-Security-Review-October-2025.pdf) | DeFi, Hooks | LSR-[R0bert](https://cantina.xyz/u/r0bert) <br> LSR-[Alireza Arjmand](https://cantina.xyz/u/allarious) <br> SR-[Akshay Srivastav](https://cantina.xyz/u/AkshaySrivastav) <br> ASR-[0xluk3](https://cantina.xyz/u/0xluk3) |
 | [Beethoven](https://beets.fi/) | September 2025 | [:page_facing_up:](pdfs/Beets-Looped-Sonic-Spearbit-Security-Review-September-2025.pdf) | DeFi, Vaults | LSR-[Leastwood](http://cantina.xyz/u/0xleastwood) <br> LSR-[Alireza Arjmand](https://cantina.xyz/u/allarious) <br> SR-[Om Parikh](https://cantina.xyz/u/hack3r-0m) <br> SR-[Kankodu](https://cantina.xyz/u/kankodu) |
