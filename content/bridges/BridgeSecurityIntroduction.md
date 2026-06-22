@@ -13,7 +13,7 @@
 
 ## What is a Bridge?
 
-A blockchain bridge is a protocol that lets users send messages (data) between chains. These messages could be simple (sending information) or complex (transferring assets). Bridges solve one of the crypto spaces' main pain points - a lack of interoperability. Since blockchain assets are often not compatible with one another (i.e. Bitcoin and Ethereum), bridges often create representations of an asset from another blockchain.
+A blockchain bridge is a protocol that lets users send messages (data) between chains. These messages could be simple (sending information) or complex (transferring assets). Bridges solve one of the crypto spaces' main pain points - a lack of interoperability. The vast majority of blockchain assets exist natively only on a single blockchain, with a few exceptions (such as native USDC on both Ethereum and Solana). Bridges can therefore facilitate the usage of a synthetic bridged representation of a native asset on blockchain A on another blockchain B.
 
 Bridges can be categorized as either trusted (custodial) or trust minimized (non-custodial). The differences between these two categories can be defined as:
 
@@ -23,8 +23,8 @@ Bridges can be categorized as either trusted (custodial) or trust minimized (non
 Bridges can be further categorized by the methodology used to verify transactions on the origin and destination chains:
 
 - **Externally Verified:** Externally verified bridges rely on a 3rd party (an address or multisig governed by a counterparty or counterparties) to validate transactions on both the destination and origin chains. For externally verified bridges, a third party is trusted.
-- **Natively Verified:** Natively verified bridges run a validator for the origin chain on the destination chain to verify that a transaction has occurred. Natively verified bridges inherit the trust assumptions of the origin chain.
-- **Optimistically Verified:** Optimistically verified bridges assume that transactions are valid and allow anyone to challenge a transaction within a certain window of time before finalizing the transaction. These bridges rely heavily on economic trust assumptions.
+- **Natively Verified:** Natively verified bridges run a validator (or a light client) for the origin chain on the destination chain to verify that a transaction has occurred. Natively verified bridges inherit the trust assumptions of the origin chain. An example would be a Bitcoin light client implemented as a smart contract on the Ethereum blockchain. 
+- **Optimistically Verified:** Optimistically verified bridges assume that transactions are valid and allow anyone to challenge a transaction within a certain window of time before finalizing the transaction. These bridges rely heavily on economic trust assumptions. Examples: optimistic rollups, and the NEAR<>Ethereum rainbow bridge.
 
 Lastly, trust minimized bridges can be classified by the type of data that they are transferring:
 
@@ -40,10 +40,11 @@ Note that both liquidity bridges and token bridges incorporate an AMB within the
 
 The open, collaborative, and composable nature of web3 is one of the most appealing attributes of blockchain for developers. Before the existence of bridge protocols, each blockchain was inhibited by the liquidity and applications within its own domain. The introduction of bridges has provided an avenue for enabling data exchange, smart contracts, token transfer, and instructions between two independent protocols.
 
-1. **Capital Efficiency:** Users can make and receive transfers without having to pay high transaction fees for every transaction. This opens the door applications like gaming and mass market applications. A simple example of this efficiency is a user can bridge their token from Ethereum (Layer 1) to Polygon (Layer 2) to enjoy much lower transaction fees.
-2. **Cross-chain bonding:** Bridges enable users to transfer digital assets from a blockchain that holds significant value, but few dapps of its own, such as Bitcoin, to one that has a developed DeFi ecosystem, like Ethereum, and a need for additional liquidity.
-3. **Composability:** Bridges give users the ability to have freedom when it comes to the DeFi applications they can interact, opening up possibilities beyond the Native chain. For example, let's say there is ABC project on Arbitrum that offers 15% APY on DAI in a liquidity pool, but the user has assets on the Ethereum chain. In this scenario, the user can bridge their Ethereum tokens to Arbitrum and access this yield. The user can then bridge the LP tokens back to Ethereum and borrow against these on a lending platform, like Aave.
-4. **Scalability:** Bridges are designed to withstand high transaction volumes, which enables greater scalability without forcing developers and users to give up the liquidity and network effect of the original chains.
+1. **Capital Efficiency:** Users can obtain the same utility by using a dApp on a cheaper blockchain. Assets are briged from an expensive to a cheap blockchain and transacted upon there at lower network fees. This opens the door applications like gaming and mass market applications. A simple example of this efficiency is a user can bridge their token from Ethereum (Layer 1) to Polygon (Layer 2) to enjoy much lower transaction fees.
+2. **Cross-chain bonding:** Bridges enable users to transfer digital assets from a blockchain that holds significant value, but few dapps of its own, such as Bitcoin, to one that has a developed DeFi ecosystem, like Ethereum, and is in need for additional liquidity.
+3. **Interoperability:** Bridges give users the ability to have freedom when it comes to the DeFi applications they can interact, opening up possibilities beyond the Native chain. For example, let's say there is ABC project on Arbitrum that offers 15% APY on DAI in a liquidity pool, but the user has assets on the Ethereum chain. In this scenario, the user can bridge their Ethereum tokens to Arbitrum and access this yield. The user can then bridge the LP tokens back to Ethereum and borrow against these on a lending platform, like Aave.
+4. **Composability**: atomic multi-chain transactions have not evolved yet, but it is expected that they will via the emergence of super builder entities to validate multiple chains to capture inter-chain MEV. This means users can submit a transaction batch that touches multiple chain. Example: a rollup sequencer accepts a batch of 3 transations from a user: (1) a withdraw tx from an Ethereum-tethered rollup a chain (2) a deposit to Polygon's deposit contract on Ethereum (3) a swap tx on Polygon. 
+5. **Scalability:** Bridges are designed to withstand high transaction volumes, which enables greater scalability without forcing developers and users to give up the liquidity and network effect of the original chains.
    <br>
 
 ## How does a bridge operate?
@@ -54,9 +55,10 @@ Here is an example where Stefan wants to transfer 1000 USDC from Ethereum Networ
 ![](https://i.imgur.com/3IBF1Is.png)
 
 1. Stefan deposits 1000 USDC to the bridge contract on Ethereum.
-2. The USDC token is then locked in the bridge contract.
-3. The bridge contract sends a message to another bridge contract on the Polygon Network.
-4. The bridge contract on Polygon Network mints 1000 USDC on Polygon and transfers the tokens to Stefan's Polygon address.
+2. The USDC token is then locked in this bridge contract.
+3. An external party, such as an incentivised relayer or a validator, posts a proof of said deposit to the bridge contract on Polygon.
+4. The bridge contract on Polygon verifies that the proof (which is typically a Merkle path) is valid and is included in the latest finalized block of the Ethereum blockchain (note: if Ethereum were still running a PoW consensus, the validation would involve checking that the deposit tx on Ethereum is buried under enough number of blocks, similar to how CEXes wait a number of blocks before considering a deposit into a PoW chain confirmed).
+5. The bridge contract on Polygon Network mints 1000 USDC on Polygon and transfers the tokens to Stefan's Polygon address.
 
 **Withdrawing assets back to the Original chain:**
 Now suddenly, Stefan wakes up one day and would like to withdraw the 1000 USDC back to Ethereum Network.
@@ -65,8 +67,8 @@ Now suddenly, Stefan wakes up one day and would like to withdraw the 1000 USDC b
 
 1. Stefan sends 1000 USDC to the bridge contract in Polygon Network.
 2. The bridge burns the tokens.
-3. The bridge contract sends a message to the bridge contract on Ethereum Chain.
-4. The the contract unlocks the USDC tokens, which were at first deposited by Stefan, and finally transfers the tokens back to Stefan’s address on Ethereum.
+3. An external party, such as an incentivised relayer or a validator, posts a proof of said deposit to the bridge contract on Ethereum.
+4. The the contract validates the proof and unlocks the USDC tokens, which were at first deposited by Stefan, and finally transfers the tokens back to Stefan’s address on Ethereum.
 
 <br>
 
